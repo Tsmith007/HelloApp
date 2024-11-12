@@ -21,7 +21,7 @@ public class Book {
 
     // Method to change the book's title and save the old title
     public void changeTitle(String newTitle) {
-        if (numberOfOldTitles < oldTitles.length) { // Check to avoid array overflow
+        if (numberOfOldTitles < oldTitles.length) { // Check to for array overflow
             oldTitles[numberOfOldTitles] = title; // Save current title in the array
             numberOfOldTitles++; // Increment title count
         }
@@ -33,7 +33,7 @@ public class Book {
         return "Book Title: \"" + title + "\", Author: " + author + ", Publication Year: " + publicationYear;
     }
 
-    // Main method to create and manipulate Book objects
+    // Main method to create Book objects
     public static void main(String[] args) {
         // Creating three Book objects
         Book book1 = new Book("To Kill a Mockingbird", "Harper Lee", 1960);

@@ -4,7 +4,7 @@ public class Main {
                 // Creating Book, EBook, and AudioBook objects
                 Book book1 = new Book("To Kill a Mockingbird", "Harper Lee", 1960);
                 EBook ebook1 = new EBook("1984", "George Orwell", 1949, "July 8, 2021", "Stephen Fry");
-                AudioBook audiobook1 = new AudioBook("The Great Gatsby","F. Scott Fitzgerald", 1925, "Jake Gyllenhaal", 5.2);
+                Audiobook audiobook1 = new Audiobook("The Great Gatsby","F. Scott Fitzgerald", 1925, "Jake Gyllenhaal", 5.2);
 
 
         // Display initial detail

@@ -1,3 +1,6 @@
+//Tanner Smith
+//tanmanalan@gmail.com
+//For Mr. Gross programming class
 // Main.java
 public class Main { 
     public static void main (String[] args){
